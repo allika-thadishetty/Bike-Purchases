@@ -9,21 +9,23 @@ This project focuses on analyzing bike purchase data using Excel. The dataset co
 The dataset includes information about customers and whether they purchased a bike or not. Key columns include:
 - **Region**: Customer's geographical location.
 - **Commute Distance**: Distance the customer commutes regularly.
-- **Education**: Highest level of education attained by the customer.
+- **Education**: The highest level of education attained by the customer.
 - **Income**: Customer's annual income.
 - **Gender**: Gender of the customer.
 - **No. of Cars**: Number of cars owned by the customer.
 - **No. of Children**: Number of children in the customer's household.
 - **Occupation**: Customer's job role or title.
+- **Age**: Customer's Age.
 - **Purchased Bike**: Indicates whether the customer purchased a bike (`Yes` or `No`).
 
 ---
 
 ## Steps Taken
-### 1. Data Cleaning
+### 1. Data Cleaning and Formatting
 - Removed unnecessary spaces and duplicates.
 - Corrected inconsistent entries (e.g., case formatting, missing values).
 - Standardized the dataset for analysis (e.g., numeric conversions, categorical mapping).
+- Example: Transforming the Age column to a categorical value( e.g. , adult, middle-aged, and old)
 
 ### 2. Data Analysis
 - **Exploratory Analysis**: Examined key customer attributes, such as income levels, commute distances, and car ownership, to identify trends.
@@ -49,6 +51,7 @@ Designed two interactive dashboards:
 
 ## Key Insights
 - Customers with higher incomes and fewer cars are more likely to purchase bikes.
+- The age bracket plays an important role in the purchase decisions.
 - Regions with shorter average commute distances show a higher bike purchase rate.
 - Educational background and occupation play significant roles in determining purchase likelihood.
 - Families with more children are less likely to buy bikes, possibly due to other expenses.
@@ -57,8 +60,8 @@ Designed two interactive dashboards:
 
 ## Tools Used
 - **Microsoft Excel**: For data cleaning, pivot table creation, and dashboard design.
-- **Pivot Tables**: For summarizing data and identifying trends.
-- **Dashboards**: To visualize insights and present the analysis in an engaging manner.
+- **Pivot Tables**: These summarize data and identify trends.
+- **Dashboards**: To visualize insights and engagingly present the analysis.
 
 ---
 
